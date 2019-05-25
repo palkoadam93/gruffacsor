@@ -1,20 +1,24 @@
 body {
   font-family: Rubik, 'Times New Roman', serif;
-  font-size: 1.125rem;
+  /*font-size: 1.125rem;*/
   /*line-height: 2rem;*/
   color: #333;
 }
 
+a {
+	text-decoration: none;
+}
+
 .main-header {
-  font-size: 1.125rem;
-  letter-spacing: 0.125rem;
-  color: #8c8e9b;
+	font-size: 1.125rem;
+	letter-spacing: 0.125rem;
+	color: #8c8e9b;
 	background:khaki;
-	height:4em;
 }
 
 .main-header h1 {
 	margin-left:4rem;
+	line-height:3em;
 }
 
 /* ==== A SIMPLE TOP NAVIGATION ==== */
@@ -24,14 +28,12 @@ nav ul {
 }
 nav li {
   font-family: 'Anton', sans-serif;
-  font-size: 1.4rem;
+  /*font-size: 1.4rem;*/
   line-height: 3rem;
-  height: 3rem;
   border-bottom: 1px solid #ccc;
 }
 
 nav a {
-  text-decoration: none;
   color: #C74F78;
   display: block;
 }
@@ -51,11 +53,6 @@ nav a.active {
     width: 7.5rem;
   }
 }
-
-nav {
-  font-size: 0;
-}
-
 /* ==== END NAVIGATION ==== */
 
 h1, h2 {
@@ -69,24 +66,31 @@ h1 {
 h2 {
   font-size: 1.6rem;;
   color: #e5127d;
+	line-height:3rem;
 }
 
 a {
 	color: #e5127d;
-	text-decoration: none;
 }
 
 a:hover {
 	color: #b60e63;
 }
 
-.primary-content {
-	width:60%;
-	margin:1rem;
+.post {
+	border-bottom:1px solid grey;
 }
 
-main p {
-	text-justify:justify;
+.primary-content {
+	margin:1rem;
+	width:60%;
+	padding:1px;
+}
+
+p {
+	text-align:justify;
+	line-height:1.3rem;
+	margin-bottom:0.5rem;
 }
 
 .picture {
@@ -95,8 +99,8 @@ main p {
 	margin-right:1em;
 }
 
-footer {
-	height:4em;
+footer p {
 	background:#ffcce6;
 	text-align:center;
+	line-height:4em;
 }
