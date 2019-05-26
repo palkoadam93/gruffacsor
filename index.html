@@ -22,7 +22,7 @@
 	<h1>Gruffacsór blogja</h1>
 </header>
 
-<nav>
+<nav class="nav" id="myNav">
   <ul>
     <li><a href="#">Főoldal</a></li>
     <li><a href="#">Hírek</a></li>
@@ -61,4 +61,19 @@
 	<footer>
 		<p>&copy; Gruffacsór 2019. Minden jog fenntartva!</p>
 	</footer>
+	
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var nav = document.getElementById("myNav");
+		var sticky = nav.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset > sticky) {
+		    nav.classList.add("sticky");
+		  } else {
+		    nav.classList.remove("sticky");
+		  }
+		}
+	</script>
 </body>
