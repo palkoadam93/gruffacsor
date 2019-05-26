@@ -22,18 +22,15 @@ a {
 }
 
 /* ==== A SIMPLE TOP NAVIGATION ==== */
-.sticky {
-	position:static;
-}
 nav ul {
   background-color: #eee;
   text-align: center;
 }
 nav li {
-  font-family: 'Anton', sans-serif;
-  /*font-size: 1.4rem;*/
-  line-height: 3rem;
-  border-bottom: 1px solid #ccc;
+	font-family: 'Anton', sans-serif;
+	/*font-size: 1.4rem;*/
+	line-height:3rem;
+	border-bottom: 1px solid #ccc;
 }
 
 nav a {
